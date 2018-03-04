@@ -1,0 +1,6 @@
+#accepts 1 argument (side of a square) and returns 3 figures(cortege): perimeter, area and diagonal.
+def square (x):
+    a = 4*float (x)
+    b = float(x)**2
+    c = float(x)*(2**0.5)
+    tuple=(print(a,b,c))
